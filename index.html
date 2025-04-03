@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر إلكتروني</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>متجر المنتجات</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#products">المنتجات</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>أفضل المنتجات بأفضل الأسعار</h2>
+        <p>تسوق الآن واحصل على عروض حصرية</p>
+        <a href="#products" class="btn">تسوق الآن</a>
+    </section>
+    <section id="products" class="products">
+        <h2>منتجاتنا</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="product1.jpg" alt="منتج 1">
+                <h3>اسم المنتج 1</h3>
+                <p>وصف المنتج هنا</p>
+                <span class="price">$99</span>
+                <button class="buy-btn" onclick="buyProduct('منتج 1', 99)">شراء</button>
+            </div>
+
+            <div class="product">
+                <img src="product2.jpg" alt="منتج 2">
+                <h3>اسم المنتج 2</h3>
+                <p>وصف المنتج هنا</p>
+                <span class="price">$79</span>
+                <button class="buy-btn" onclick="buyProduct('منتج 2', 79)">شراء</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>تواصل معنا</h2>
+        <p>يمكنك التواصل معنا عبر البريد الإلكتروني: <strong>shop@example.com</strong></p>
+    </section>
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
